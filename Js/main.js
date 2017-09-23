@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
             case "Completed Works":
             XHR(cwP, () => {
                 XHR(dataCW, (data) => {
-                    const ul = document.querySelector('#cwPosts~');
+                    const ul = document.querySelector('#cwPosts');
                     console.log(ul);
                     for (let item in data) {
                         const li = document.createElement('li');

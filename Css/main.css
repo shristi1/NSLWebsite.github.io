@@ -5,8 +5,70 @@
 }
 
 #site-header,
-#site-footer {
+#site-header li,
+#list-preview ul,
+#site-footer,
+#site-footer li {
     padding: 10px;
+}
+
+#site-header,
+#site-header nav,
+#home-preview,
+#links,
+#about h3,
+#contact h3,
+#site-footer nav {
+    text-align: center;
+}
+
+#site-header ul,
+#site-header li,
+.list-preview,
+#site-footer ul,
+#site-footer li,
+#site-footer p {
+    display: inline-block;
+}
+
+#site-header li:hover,
+#blogPrev li h3:hover,
+#cwPrev li h3:hover,
+#blogPosts li h2:hover,
+#cwPosts li h2:hover,
+#site-footer li:hover {
+    cursor: pointer;
+}
+
+#site-header li,
+#site-footer li {
+    margin: 0 30px;
+}
+
+.list-preview ul,
+#landing-img {
+    border-radius: 10px;
+}
+
+#landing-img,
+#blogPosts,
+#cwPosts,
+#links div,
+#about div,
+#contact {
+    margin: 0 auto;
+}
+
+#blogPrev li,
+#cwPrev li,
+#landing-img {
+    margin-top: 10px;
+}
+
+#links div,
+#about div,
+#contact h3 {
+    background-color: #F0F0F2;
 }
 
 ul,
@@ -21,7 +83,7 @@ a {
 }
 
 p {
-    line-height: 1.6em;
+    line-height: 2em;
 }
 
 .nav-left {
@@ -30,37 +92,17 @@ p {
 
 .test {
     color: red;
+    background-color: orangered;
 }
 
 /*Header*/
 #site-header {
     border-bottom: 3px solid #8CBA80;   
-}
-
-#site-header nav {
-    text-align: center;
-}
-
-#site-header ul {
-    /* text-align: center; */
-    display: inline-block;
-}
-
-#site-header li {
-    display: inline-block;
-    padding: 10px;
-    margin: 0 30px;
-}   
-
-#site-header li:hover {
-    cursor: pointer;
-}
-
+} 
 
 /*Main*/
 #site-main {
     margin: 70px 0;
-    /* background-color: yellow; */
 }
 
 #landing-img {
@@ -68,73 +110,54 @@ p {
     width: 70%;
     max-width: 70%;
     min-height: 400px;
-    border-radius: 10px;
-    margin: 0 auto; 
-    margin-top: 10px;
-}
-
-#home-preview {
-    text-align: center;
 }
 
 .list-preview {
     margin: 10px 50px;
-    display: inline-block;
 }
 
-.list-preview h3 {
-
-}
-
-.list-preview article {
+.list-preview ul {
     border: 3px solid #658E9C;    
-    border-radius: 10px;
     width: 600px;
     max-width: 600px;       
 }
 
 .list-preview ul {
     text-align: initial;
-    padding: 10px;
     margin: 10px;
     margin-left: 100px;
 }
 
-#bpostprev li,
-#cwpostprev li {
-    margin-top: 10px;
-    margin-bottom: 30px;
+#blogPrev,
+#cwPrev {
+    padding-top: 30px;   
 }
 
-#bpostprev li h3:hover,
-#cwpostprev li h3:hover {
-    cursor: pointer;
+#blogPrev li,
+#cwPrev li {
+    border: 2px solid red;
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;   
+    padding: 10px;
+    border-radius: 10px;
+    list-style: initial; 
 }
 
-#blogPage {
+#blogPosts,
+#cwPosts {
     /* border: 2px solid grey; */
     width: 90%;
     max-width: 90%;
-    margin: 0 auto;
     padding: 30px;
 }
 
-#blogPage li {
+#blogPosts li,
+#cwPosts li {
     border-bottom: 3px solid #658E9C;
     margin-bottom: 50px;
     padding-bottom: 10px;
-}
-
-#blogPage li h2:hover {
-    cursor: pointer;
-}
-
-.list-preview li {
-
-}
-
-#links {
-    text-align: center;    
 }
 
 #links a {
@@ -142,8 +165,6 @@ p {
 }
 
 #links div {
-    margin: 0 auto;
-    background-color: #F0F0F2;
     border-radius: 5px;
     width: 40%;
     max-width: 40%;
@@ -159,24 +180,7 @@ p {
     margin: 5px;
 }
 
-#links ul {
-
-}
-
-#links li {
-
-}
-
-
-
-#about {
-
-}
-
 #about div {
-    margin: 0 auto;
-    background-color: #F0F0F2;
-    border-radius: 5px;
     width: 50%;
     max-width: 50%;
     border-radius: 2px;
@@ -185,57 +189,23 @@ p {
 
 #about h3 {
     padding: 20px;   
-    text-align: center; 
-}
-
-#about p {
-    line-height: 2.5em;
 }
 
 #contact {
-    margin: 0 auto;
     width: 40%;
     max-width: 40%;
 }
 
 #contact h3 {
-    text-align: center;
     padding: 100px;
-    background-color: #F0F0F2;
 }
+
 /*Footer*/
 #site-footer {
     font-size: .9em;
     border-top: 3px solid #8CBA80;
 }
 
-#site-footer nav {
-    text-align: center;
-}
-
-#site-footer ul {
-    /* text-align: center; */
-    display: inline-block;
-}
-
-#site-footer li {
-    display: inline-block;
-    padding: 10px;
-    margin: 0 30px;
-}   
-
-#site-footer li:hover {
-    cursor: pointer;
-}
-
-#site-footer p {
-    display: inline-block;
-}
-
-
-
 /*Media Query's*/
-
-
 
 /*Misc*/

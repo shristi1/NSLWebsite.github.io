@@ -1,9 +1,9 @@
 "use strict";
 
 const pages = [
-    {'url': "/data/home.html", 'scripts': ["/js/loadXHRContent.js?f=js/blogData.json&oc=blogPrev&no=3", "/js/loadXHRContent.js?f=js/completedWorksData.json&oc=cwPrev&no=3"] },
-    {'url': "/data/completedworks.html", 'scripts': ["/js/loadXHRContent.js?f=js/completedWorksData.json&oc=cwPosts&no=10&s=0"] },
-    {'url': "/data/blog.html", 'scripts': ["/js/loadXHRContent.js?f=js/blogData.json&oc=blogPosts&no=10&s=0"] }
+    {'url': "/data/home.html", 'scripts': ["js/loadXHRContent.js?f=js/blogData.json&oc=blogPrev&no=3", "/js/loadXHRContent.js?f=js/completedWorksData.json&oc=cwPrev&no=3"] },
+    {'url': "/data/completedworks.html", 'scripts': ["js/loadXHRContent.js?f=js/completedWorksData.json&oc=cwPosts&no=10&s=0"] },
+    {'url': "/data/blog.html", 'scripts': ["js/loadXHRContent.js?f=js/blogData.json&oc=blogPosts&no=10&s=0"] }
 ] 
 //Run Js only when the document has fully loaded
 document.addEventListener("DOMContentLoaded", () => {

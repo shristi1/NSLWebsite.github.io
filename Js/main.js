@@ -77,16 +77,3 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(err => console.log(err));
     });
 });
-
-
-// function myFetch(name){ 
-//     return new Promise(function(okay, notokay){  
-//         if(name ==='Miles') okay(100);
-//         else if(name === 'Asaad') notokay('Are you Serious!!');
-//         else okay(0);
-//     }); 
-// }
-
-// myFetch("Miles").then(data => console.log(data+1)); console.log('Hello')
-
-// myFetch("Asaad").then(data => console.log(data+1)).catch( (e) => console.log(e)); console.log('Hello')

@@ -48,6 +48,7 @@
 .list-preview ul,
 #landing-img {
     border-radius: 10px;
+    width: 100%;
 }
 
 #landing-img,

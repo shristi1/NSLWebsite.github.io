@@ -104,7 +104,9 @@ p {
 #site-main {
     margin: 70px 0;
 }
-
+.teamPic{
+    width:90%;
+}
 #landing-img {
     background-color: #4D5382;
     width: 70%;

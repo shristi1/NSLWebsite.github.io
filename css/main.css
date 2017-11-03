@@ -171,6 +171,17 @@ p {
     text-align: center;
 }
 
+.document{
+    padding-bottom: 20px;
+}
+
+.presentation,
+.flysheet{
+    padding: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid blue;
+}
+
 #links a {
     color: lightblue;
 }

@@ -39,13 +39,15 @@ if(f){
                 const li = document.createElement('li');
                 const h3 = document.createElement('h3');
                 const h4 = document.createElement('h4');
+                const h5 = document.createElement('h5');
     
                 h3.innerText = item.title;
-                h4.innerText = item.body;
                 h4.innerText = item.date;
+                h5.innerText = item.body;
     
                 li.appendChild(h3);
                 li.appendChild(h4);
+                li.appendChild(h5);
                 // console.log(li)
                 output.appendChild(li);
             }

@@ -41,6 +41,7 @@ if(f){
                 const h4 = document.createElement('h4');
     
                 h3.innerText = item.title;
+                h4.innerText = item.body;
                 h4.innerText = item.date;
     
                 li.appendChild(h3);

@@ -164,6 +164,14 @@ p {
     padding-bottom: 10px;
 }
 
+.pdr {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
 #links a {
     color: lightblue;
 }
